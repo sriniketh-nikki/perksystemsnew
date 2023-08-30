@@ -1,0 +1,556 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  overflow-y: scroll;
+}
+/* Navigation page css */
+.second-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.second-ul li {
+  float: left;
+  margin-right: 7px;
+  margin-top: 10px;
+  font-size: 14px;
+  background-color: rgb(193, 189, 189);
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-weight: bolder;
+  width: 90px;
+}
+
+.second-ul li a {
+  color: black;
+}
+
+.second-ul li:hover {
+  background-color: rgb(49, 49, 159);
+  color: white;
+}
+
+.second-ul li a:hover {
+  color: white;
+}
+
+.second-ul li a {
+  display: block;
+  text-align: center;
+  padding: 8px 5px;
+  text-decoration: none;
+}
+
+#logo1 {
+  width: 200px;
+  height: 60px;
+  margin: 0px 0px 0px 20px;
+}
+
+.navdiv1 ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.navdiv1 {
+  background-color: rgb(11, 11, 162);
+  padding: 10px 0px 10px 0px;
+  color: white;
+}
+
+#home-header {
+  background-color: rgb(221, 213, 213);
+  width: 100%;
+  height: auto;
+}
+
+.navdiv1 a,
+.home-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.navdiv1 a:hover,
+.home-footer a:hover {
+  text-decoration: underline;
+}
+
+.navdiv1 ul li {
+  margin-right: 30px;
+}
+
+.navdiv2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer page css code */
+.copyright {
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+.copyright p {
+  padding: 10px;
+}
+/* Home page css code */
+#slide-bg {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.sect {
+  position: relative;
+}
+
+#head1 {
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2vw;
+}
+
+#head2 {
+  position: absolute;
+  font-size: 4vw;
+  z-index: 1;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#slide-bg {
+  position: relative;
+  height: 425px;
+}
+
+.home-footer {
+  background-color: rgb(22, 22, 122);
+  color: white;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  padding: 10px;
+  margin-top: -4px;
+  position: relative;
+}
+
+.home-footer div {
+  padding: 10px;
+  margin: 2px;
+}
+
+.home-footer a {
+  font-weight: bolder;
+}
+
+.home-footer p {
+  font-size: 14px;
+}
+/* About us page css code */
+#perkimg {
+  width: 400px;
+  height: 400px;
+  border-bottom: 2px solid gray;
+  box-shadow: 0px 2px 0px grey;
+}
+
+#approachimg {
+  width: 450px;
+  height: 400px;
+}
+/* services page css code */
+#servicesimg {
+  width: 350px;
+  height: 200px;
+}
+/* Media Queries of 320px to 480px */
+@media all and (min-width:320px) and (max-width:480px) and (orientation:portrait) {
+  .home-footer {
+    padding: 10px;
+  }
+
+  #logo1 {
+    width: 200px;
+    height: 60px;
+    margin: 0px 0px 0px 10px;
+  }
+
+   .aboutdiv {
+    display: grid;
+    flex-direction: column;
+  }
+
+  #perkimg {
+    grid-row: 1;
+    grid-column: 1/4;
+    width: 350px;
+    height: 300px;
+  }
+
+  #aboutparas {
+    grid-row: 2;
+    grid-column: 1/4;
+  }
+
+  .visiondiv {
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #vision1 {
+    grid-row: 1;
+    grid-column: 1/4;
+  }
+
+  #vision2 {
+    grid-row: 2;
+    grid-column: 1/4;
+  }
+
+  .approachdiv {
+    display: grid;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #approachimg {
+    grid-row: 1;
+    grid-column: 1/4;
+    width: 350px;
+    height: 300px;
+  }
+
+  #approach {
+    grid-row: 2;
+    grid-column: 1/4;
+  }
+
+  .servicediv {
+    display: grid;
+    flex-direction: column;
+  }
+
+  .contactdiv {
+    display: grid;
+    flex-direction: column;
+  }
+
+  #mapframe {
+    grid-row: 1;
+    grid-column: 1/4;
+  }
+
+  #contactparas {
+    grid-row: 2;
+    grid-column: 1/4;
+  }
+
+  #servicesimg {
+    grid-row: 1;
+    grid-column: 1/4;
+  }
+
+  #serviceparas {
+    grid-row: 2;
+    grid-column: 1/4;
+  }
+
+  .navdiv2 {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  .navdiv2 li {
+    margin-left: 5px;
+  }
+
+  .contactinputs {
+    margin: 10px;
+  }
+
+  #mapsize {
+    width: 360px;
+    height: 300px;
+  }
+
+  .contactinputs input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+}
+/* Media Queries of 1200px to 1600px */
+@media all and (min-width:1200px) and (max-width:1600px) {
+  .home-footer {
+    padding: 15px 200px;
+  }
+
+  #justifybtn {
+    display: none;
+  }
+
+  .aboutdiv {
+    padding: 10px 150px 10px 150px;
+    margin: 15px;
+  }
+
+  .servicediv {
+    padding: 10px 150px 10px 150px;
+    margin: 15px;
+  }
+
+  .contactdiv {
+    padding: 10px 150px 10px 150px;
+    margin: 15px;
+  }
+
+  .visiondiv {
+    margin: 15px;
+    padding: 10px 150px 10px 150px;
+  }
+
+  .approachdiv {
+    margin: 15px;
+    padding: 10px 150px 10px 150px;
+  }
+
+  #approach {
+    margin: 5px 100px 5px 20px;
+  }
+
+  #perkimg {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  #aboutparas {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: justify;
+  }
+
+  .navdiv2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #logo1 {
+    margin: 0px 0px 0px 100px;
+  }
+
+  #approachimg {
+    width: 500px;
+    height: 400px;
+  }
+
+  .servicediv {
+    padding-bottom: 100px;
+  }
+
+  .contactinputs {
+    margin: 10px 150px 10px 150px;
+  }
+
+  .contactinputs input {
+    width: 30%;
+    padding: 8px;
+    margin: 10px;
+  }
+
+  #mapsize {
+    width: 600px;
+    height: 260px;
+  }
+}
+
+/* combine code of all pages*/
+
+.about,
+.service,
+.clients,
+.contact,
+.login {
+  position: relative;
+}
+
+#aboutbannerimg,
+#servicebannerimg,
+#clientsbannerimg,
+#contactbannerimg,
+#loginbannerimg {
+  width: 100%;
+  height: 120px;
+}
+
+#abouthead,
+#servicehead,
+#clientshead,
+#contacthead,
+#loginhead {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  font-size: 25px;
+}
+
+#aboutparas p {
+  font-size: 14px;
+}
+
+.aboutdiv {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 4fr 8fr;
+  margin: 10px 20px 10px 20px;
+}
+
+.servicediv {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 4fr 8fr;
+  margin: 10px 20px 10px 20px;
+}
+
+.contactdiv {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 6fr 6fr;
+  margin: 10px 20px 10px 20px;
+}
+
+.visiondiv {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 6fr 6fr;
+  margin: 10px 15px 10px 15px;
+}
+
+.visiondiv p,
+#approach p {
+  font-size: 14px;
+}
+
+.visiondiv h6,
+#approachh6 {
+  font-weight: bold;
+  margin-left: 20px;
+  color: rgb(16, 16, 144);
+}
+
+.vision img {
+  float: right;
+}
+
+.vision {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+}
+
+.approachdiv {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 6fr 6fr;
+  margin: 10px 15px 10px 15px;
+}
+
+#servicesimg {
+  margin-right: 10px;
+}
+
+#clientssubhead {
+  color: rgb(29, 29, 154);
+  font-weight: bold;
+}
+
+.clients2 {
+  padding: 20px 40px 100px 40px;
+}
+
+.active-link {
+  float: left;
+  font-size: 14px;
+  background-color: rgb(49, 49, 159);
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  width: 90px;
+}
+
+.second-ul a.active-link {
+  color: white;
+}
+
+#contactparas {
+  margin: 20px;
+}
+
+#contactparas ul {
+  list-style-type: none;
+}
+
+#contactparas h5 {
+  color: rgb(25, 25, 151);
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.careersdiv {
+  margin-bottom: 100px;
+}
+
+/* Login page css code */
+.logindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.loginform {
+  border: 2px solid grey;
+  text-align: center;
+}
+
+.loginform input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px;
+}
+
+.loginbtn {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+#lostpassword {
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: justify;
+}

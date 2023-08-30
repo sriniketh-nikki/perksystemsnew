@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/perksystemsinc/static/css/main.fabd577d.css",
+    "main.js": "/perksystemsinc/static/js/main.a3235020.js",
+    "static/js/787.87e7380a.chunk.js": "/perksystemsinc/static/js/787.87e7380a.chunk.js",
+    "static/media/back2.jpg": "/perksystemsinc/static/media/back2.667d866af63f2f6f102b.jpg",
+    "static/media/shakehand.jpg": "/perksystemsinc/static/media/shakehand.7b84e1aee9ed4900d04b.jpg",
+    "static/media/computer.jpg": "/perksystemsinc/static/media/computer.31d15d83c365fadbf839.jpg",
+    "static/media/clients.jpg": "/perksystemsinc/static/media/clients.b97776549d5319f381da.jpg",
+    "static/media/perksysinc.jpg": "/perksystemsinc/static/media/perksysinc.a15a10485ab2cd1e8b59.jpg",
+    "static/media/our-approach.jpg": "/perksystemsinc/static/media/our-approach.03e6d164ad39b9cde04d.jpg",
+    "static/media/servicefinal.jpg": "/perksystemsinc/static/media/servicefinal.cab99857bb45703267a7.jpg",
+    "static/media/contact.jpg": "/perksystemsinc/static/media/contact.199f47ed0b077bc018e7.jpg",
+    "static/media/aboutus12.jpg": "/perksystemsinc/static/media/aboutus12.51118ed0217c8d64bf02.jpg",
+    "static/media/services-300x199.jpg": "/perksystemsinc/static/media/services-300x199.4ce8c04e574dfdcb4bc8.jpg",
+    "static/media/login1.jpg": "/perksystemsinc/static/media/login1.a8777186384be9787b5b.jpg",
+    "index.html": "/perksystemsinc/index.html",
+    "main.fabd577d.css.map": "/perksystemsinc/static/css/main.fabd577d.css.map",
+    "main.a3235020.js.map": "/perksystemsinc/static/js/main.a3235020.js.map",
+    "787.87e7380a.chunk.js.map": "/perksystemsinc/static/js/787.87e7380a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fabd577d.css",
+    "static/js/main.a3235020.js"
+  ]
+}
